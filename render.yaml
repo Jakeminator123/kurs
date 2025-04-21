@@ -1,0 +1,14 @@
+services:
+  # En Streamlit-webbapplikation
+  - type: web
+    name: halsocoach-app
+    env: python
+    region: frankfurt  # Eller välj en annan region som passar dig
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py
+    plan: free  # Ändra till passande plan om du vill ha mer resurser
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false  # Detta innebär att du behöver ange värdet manuellt i Render-gränssnittet
+    healthCheckPath: /
+    autoDeploy: true  # Automatisk driftsättning när kod pushas till GitHub 

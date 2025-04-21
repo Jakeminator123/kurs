@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Miljövariabler
+.env
+.env.*
+!.env.example
+
+# Loggfiler
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS-specifikt
+.DS_Store
+Thumbs.db
+
+# IDE-specifikt
+.idea/
+.vscode/
+*.swp
+*.swo 

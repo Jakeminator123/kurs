@@ -1,0 +1,15 @@
+[theme]
+# Primärfärg (grön/blå longevity-tema)
+primaryColor = "#2E7D5A"
+
+# Bakgrundsfärg (ljus)
+backgroundColor = "#FFFFFF"
+
+# Sekundär bakgrundsfärg (ljust grön)
+secondaryBackgroundColor = "#F1F8E9"
+
+# Textfärg (mörkgrå)
+textColor = "#262730"
+
+# Font (ändrat från "sans-serif" till "sans serif")
+font = "sans serif" 
